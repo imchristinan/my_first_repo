@@ -1,0 +1,79 @@
+
+body {
+    background-image: url("/images/background.jpg");
+    background-color: #FFC5D2;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #FAC560;
+    font-family: 'Monoton', sans-serif;
+    font-size: 120px;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Sacramento', sans-serif;
+    font-size: 40px;
+    font-style: bold;
+}
+
+p {
+    font-family: 'Caveat', sans-serif;
+    font-size: 25px
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; 
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+img:hover{
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    box-shadow: 10px 10px 5px #888888;
+  }
+
+
+
+.btn {
+    font-family: 'Sacramento', sans-serif;
+
+}
+
+.grid-container {
+    display: grid;
+    grid: 300px / auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #FBC1E3;
+    padding: 15px;
+  }
+  
+  .grid-container > div {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    align-items: center;
+    height: auto;
+    padding: 20px 10px;
+    font-size: 25px;
+    overflow-wrap: break-word;
+  }
+ 
